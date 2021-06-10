@@ -1,0 +1,56 @@
+body{
+    text-align:center;
+    background: plum;
+}
+#clockContainer{
+    width: 500px;
+    height:500px;
+    background:rgb(250, 165, 53);
+    display: inline-block;
+    border-radius: 50%;
+    border: 10px solid rgb(175, 212, 226);
+    padding: 20px;
+    
+}
+#sec,#min,#hour{
+    line-height: 45px;
+    position: absolute;
+    transform-origin: bottom;
+}
+#sec{
+    height: 250px;
+    width: 5px;
+    left:675px;
+    background: #FF0000;
+    border-radius: 50% 50%;
+    animation:sec_anim 60s linear infinite;
+}
+#min{
+    height: 250px;
+    width: 10px;
+    left: 675px;
+    background: rgb(240, 97, 120);
+    border-radius: 50% 50%;
+    animation:min_anim 3600s linear infinite;
+}
+#hour{
+    height: 250px;
+    width: 10px;
+    left: 675px;
+    border-radius: 50% 50%;
+    background: rgb(222, 240, 61);
+    
+    animation:hour_anim 86400s linear infinite;
+}
+@keyframes sec_anim{
+    from{transform:rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+}
+@keyframes min_anim{
+    from{transform:rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+}
+@keyframes hour_anim{
+    from{transform:rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+}

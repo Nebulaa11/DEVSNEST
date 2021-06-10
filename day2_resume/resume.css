@@ -1,0 +1,33 @@
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.lcloumn{
+    flex:50%;
+    padding:10px;
+    border-right:1px solid black;
+}
+.rcloumn{
+    flex:50%;
+    padding:10px;
+    border-left:1px solid black;
+    padding-left:20px;
+
+}
+h4{
+    text-align:center;
+    margin:7px;
+}
+legend{
+    text-align:center;
+    padding:0px;
+}
+.vertical { 
+    border-left: 2px solid rgb(83, 82, 82);
+    height: 380px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    padding: 0px;
+}
