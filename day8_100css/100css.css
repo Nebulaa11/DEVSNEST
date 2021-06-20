@@ -5,10 +5,11 @@ body{
     margin-top: 5%;
 }
 .container{
-height: 500px;
-width: 500px;
+ height: 500px;
+ width: 500px;
 
-display: grid;
+ display: grid;
+ 
 grid-template-columns: repeat(20, 1fr);
 grid-template-rows: repeat(20, 1fr);
 grid-column-gap: 0px;

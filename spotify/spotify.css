@@ -1,0 +1,23 @@
+
+ h2{
+
+    font-style: oblique;
+    font-weight: bold;
+}
+h5
+{
+    font:bold;
+    color: #1ED760;
+}
+
+
+.new
+{
+    
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}

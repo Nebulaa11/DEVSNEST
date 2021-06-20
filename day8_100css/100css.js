@@ -26,6 +26,6 @@ Array.from(divs).forEach((div,i) =>
 
 Array.from(divs).forEach((div,i) =>{
 
-    div.addEventListener("click",()=>{div.style.background =(div.style.background == "white" ? "red" : "white")
-    })
+    div.addEventListener("click",()=>{div.style.background = (div.style.background == "white" ? "red" : "white")
+     })
 })
